@@ -1,8 +1,30 @@
-# React + Vite
+# Text-to-Image Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack project that takes **text input** and generates a **relevant image output** using AI models.  
+Built with a robust backend, a responsive frontend, and smart integration of AI services.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Accepts free-form text input from users.
+- Generates high-quality, contextually relevant images.
+- Provides instant previews and download options.
+- Clean and responsive UI/UX.
+- Error handling and retry mechanisms for better reliability.
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- React.js / Next.js / Vite
+- Tailwind CSS / Styled Components
+- Axios for API calls
+
+**Backend:** (still in progress)
+- Node.js + Express
+- Python Flask 
+- OpenAI / Stability AI / Custom ML model integration
+
+**Other Tools:**
+- Docker (for containerization)
+- Redis (for caching, optional)
+- AWS/GCP/Azure (for deployment and storage)
+
